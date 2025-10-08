@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Cyberpunk Sunset Palette */
+    --background: 270 40% 5%;
+    --foreground: 0 0% 98%;
+
+    --card: 270 35% 8%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 270 40% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Electric Cyan - Primary */
+    --primary: 190 100% 50%;
+    --primary-foreground: 270 40% 5%;
+
+    /* Hot Pink/Magenta - Secondary */
+    --secondary: 330 100% 50%;
+    --secondary-foreground: 0 0% 98%;
+
+    /* Orange Sunset - Accent */
+    --accent: 15 100% 60%;
+    --accent-foreground: 270 40% 5%;
+
+    --muted: 270 30% 15%;
+    --muted-foreground: 0 0% 70%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 270 30% 18%;
+    --input: 270 30% 18%;
+    --ring: 190 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-sunset: linear-gradient(135deg, hsl(15, 100%, 60%), hsl(330, 100%, 50%), hsl(270, 80%, 40%), hsl(190, 100%, 50%));
+    --gradient-cyber: linear-gradient(180deg, hsl(190, 100%, 50%), hsl(330, 100%, 50%));
+    --gradient-glow: radial-gradient(circle, hsl(190, 100%, 50% / 0.3), transparent);
+
+    /* Shadows & Effects */
+    --shadow-neon-cyan: 0 0 20px hsl(190, 100%, 50% / 0.5), 0 0 40px hsl(190, 100%, 50% / 0.3);
+    --shadow-neon-pink: 0 0 20px hsl(330, 100%, 50% / 0.5), 0 0 40px hsl(330, 100%, 50% / 0.3);
+    --shadow-neon-orange: 0 0 20px hsl(15, 100%, 60% / 0.5), 0 0 40px hsl(15, 100%, 60% / 0.3);
+    
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .hero-gradient {
+    background: var(--gradient-sunset);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .neon-glow-cyan {
+    text-shadow: var(--shadow-neon-cyan);
+  }
+
+  .neon-glow-pink {
+    text-shadow: var(--shadow-neon-pink);
+  }
+
+  .neon-glow-orange {
+    text-shadow: var(--shadow-neon-orange);
+  }
+
+  .glitch {
+    animation: glitch 2s infinite;
+  }
+
+  @keyframes glitch {
+    0%, 100% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(-2px, 2px);
+    }
+    40% {
+      transform: translate(-2px, -2px);
+    }
+    60% {
+      transform: translate(2px, 2px);
+    }
+    80% {
+      transform: translate(2px, -2px);
+    }
+  }
+
+  @keyframes neon-pulse {
+    0%, 100% {
+      filter: drop-shadow(0 0 10px currentColor);
+    }
+    50% {
+      filter: drop-shadow(0 0 20px currentColor) drop-shadow(0 0 30px currentColor);
+    }
+  }
+
+  .neon-pulse {
+    animation: neon-pulse 2s ease-in-out infinite;
+  }
+}
