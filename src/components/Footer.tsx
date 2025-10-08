@@ -30,7 +30,7 @@ const Footer = () => {
                 <span className="text-foreground font-semibold">Site Web</span>
               </a>
               <a 
-                href="mailto:pixelheroschool@gmail.com"
+                href="mailto:johan.dev.pro@gmail.com"
                 className="flex items-center gap-2 bg-card border-2 border-accent px-6 py-3 rounded-lg hover:bg-accent/10 transition-all hover:shadow-[0_0_20px_rgba(255,107,53,0.4)]"
               >
                 <Mail className="w-5 h-5 text-accent" />

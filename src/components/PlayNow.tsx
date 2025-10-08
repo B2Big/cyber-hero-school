@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { ExternalLink } from "lucide-react";
-import gameplayImg from "@/assets/gameplay.png";
-import qrCode from "@/assets/qr-code.png";
+import gameplayImg from "@/assets/gameplay-real.png";
+import qrCode from "@/assets/qr-code-real.png";
 
 const PlayNow = () => {
   return (
