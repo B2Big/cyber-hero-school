@@ -1,25 +1,27 @@
 import schoolImg from "@/assets/school.webp";
+import { useTranslation } from "react-i18next";
 
 const Vision = () => {
+  const { t } = useTranslation();
   const visionPoints = [
     {
-      title: "Incarner",
-      description: "Pixel-Chef, un héros qui entre \"dans le cerveau\" de l'école pour réparer les pixels sombres représentant les élèves tristes.",
+      title: t('vision.point1Title'),
+      description: t('vision.point1Desc'),
       color: "primary"
     },
     {
-      title: "Explorer",
-      description: "Des niveaux abstraits et dynamiques où les glitchs (monstres issus du harcèlement) envahissent les couloirs.",
+      title: t('vision.point2Title'),
+      description: t('vision.point2Desc'),
       color: "secondary"
     },
     {
-      title: "Rétablir",
-      description: "La lumière, la couleur et la joie en « réveillant » les élèves délivrés.",
+      title: t('vision.point3Title'),
+      description: t('vision.point3Desc'),
       color: "accent"
     },
     {
-      title: "Inspirer",
-      description: "Les joueurs à reconnaître et combattre le harcèlement IRL.",
+      title: t('vision.point4Title'),
+      description: t('vision.point4Desc'),
       color: "primary"
     }
   ];
@@ -33,25 +35,18 @@ const Vision = () => {
 
       <div className="container relative z-10 mx-auto px-4">
         <h2 className="text-5xl md:text-6xl font-black text-center mb-4 hero-gradient">
-          Notre Vision
+          {t('vision.title')}
         </h2>
         <p className="text-center text-xl text-accent mb-12 font-bold">
-          Faire de Pixel Hero School un jeu-manifeste accessible (E10+) qui mêle fun, réflexion et impact social
+          {t('vision.objective')}
         </p>
 
         {/* Project Objectives */}
         <div className="max-w-4xl mx-auto mb-16">
           <div className="bg-card border-2 border-secondary rounded-2xl p-8 shadow-[0_0_30px_rgba(255,0,110,0.3)]">
-            <h3 className="text-3xl font-bold mb-6 text-secondary text-center">Objectifs Pédagogiques du Projet</h3>
+            <h3 className="text-3xl font-bold mb-6 text-secondary text-center">{t('vision.pedagogyTitle')}</h3>
             <p className="text-foreground/90 text-lg leading-relaxed">
-              Le but du projet avait pour objectif de faire découvrir aux élèves et aux enseignants de nouvelles méthodes de travail, 
-              centrées sur la <span className="text-primary font-semibold">méthodologie agile</span>, la <span className="text-primary font-semibold">gestion de projet tech</span> et 
-              l'adoption de <span className="text-primary font-semibold">pédagogies actives</span>.
-            </p>
-            <p className="text-foreground/90 text-lg leading-relaxed mt-4">
-              À travers la création d'un projet collectif autour de la thématique du harcèlement scolaire, 
-              les participants ont exploré les <span className="text-accent font-semibold">métiers de l'audiovisuel et du numérique</span>, 
-              tout en développant des <span className="text-secondary font-semibold">compétences collaboratives et créatives</span> inspirées du monde professionnel.
+              {t('vision.pedagogyDescription')}
             </p>
           </div>
         </div>

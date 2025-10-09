@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+  const { t } = useTranslation();
+  
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
@@ -28,13 +31,13 @@ const Hero = () => {
       <div className="container relative z-10 mx-auto px-4 py-20 text-center">
         <div className="animate-slide-up">
           <h1 className="text-6xl md:text-8xl font-black mb-6 hero-gradient glitch">
-            PIXEL HERO SCHOOL
+            {t('hero.title')}
           </h1>
           <p className="text-2xl md:text-3xl mb-4 text-primary neon-glow-cyan font-orbitron">
-            Forme la prochaine génération de héros
+            {t('hero.subtitle')}
           </p>
           <p className="text-xl md:text-2xl mb-12 text-muted-foreground max-w-3xl mx-auto">
-            Un jeu de plateforme pixel-art où tu combats le harcèlement scolaire en explorant le cerveau de l'école
+            {t('hero.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -43,7 +46,7 @@ const Hero = () => {
               className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground neon-pulse"
               onClick={() => scrollToSection('play')}
             >
-              Jouer Maintenant
+              {t('hero.playNow')}
             </Button>
             <Button 
               size="lg" 
@@ -51,7 +54,7 @@ const Hero = () => {
               className="text-lg px-8 py-6 border-2 border-secondary text-secondary hover:bg-secondary/20"
               onClick={() => scrollToSection('trailer')}
             >
-              Voir la Bande-Annonce
+              {t('hero.watchTrailer')}
             </Button>
           </div>
 

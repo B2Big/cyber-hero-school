@@ -1,7 +1,9 @@
 import { Card } from "@/components/ui/card";
 import { Users } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Team = () => {
+  const { t } = useTranslation();
   const studios = [
     {
       name: "Studio GOSTY",
@@ -31,10 +33,10 @@ const Team = () => {
       
       <div className="container relative z-10 mx-auto px-4">
         <h2 className="text-5xl md:text-6xl font-black text-center mb-4 hero-gradient">
-          Équipe
+          {t('team.title')}
         </h2>
         <p className="text-center text-xl text-primary mb-12 neon-glow-cyan">
-          Les créateurs de Pixel Hero School
+          {t('team.subtitle')}
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-12">
@@ -66,35 +68,35 @@ const Team = () => {
         <div className="max-w-4xl mx-auto space-y-6">
           <Card className="bg-card border-2 border-secondary p-6 text-center">
             <p className="text-lg">
-              <span className="font-bold text-secondary">Supervision :</span>{" "}
+              <span className="font-bold text-secondary">{t('team.supervision')} :</span>{" "}
               <span className="text-foreground/90">Magali R. · Fanny S. · Emilie P. · Robin A.</span>
             </p>
           </Card>
 
           <Card className="bg-card border-2 border-accent p-6 text-center">
             <p className="text-lg">
-              <span className="font-bold text-accent">Directeur du projet :</span>{" "}
+              <span className="font-bold text-accent">{t('team.director')} :</span>{" "}
               <span className="text-foreground/90">Johan B.</span>
             </p>
           </Card>
 
           <Card className="bg-card border-2 border-primary p-6 text-center">
             <p className="text-lg font-bold text-primary">
-              France – Nice / Cannes
+              {t('team.location')}
             </p>
             <p className="text-sm text-muted-foreground mt-2">
-              Studios : Gosty • Epic-Land • New Game Infinit • Pastek Ride
+              {t('team.locationDesc')}
             </p>
           </Card>
         </div>
 
         {/* External Credits */}
         <div className="mt-16 max-w-3xl mx-auto">
-          <h3 className="text-3xl font-bold text-center mb-8 text-foreground">Crédits externes</h3>
+          <h3 className="text-3xl font-bold text-center mb-8 text-foreground">{t('team.externalCreditsTitle')}</h3>
           <div className="space-y-4">
             <Card className="bg-card border border-border p-4">
               <p className="text-foreground/90">
-                <span className="font-bold text-primary">Moteur - Gdevelop:</span>{" "}
+                <span className="font-bold text-primary">{t('team.engine')} - Gdevelop:</span>{" "}
                 <a href="https://gdevelop.io/fr-fr" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
                   https://gdevelop.io/fr-fr
                 </a>
@@ -102,7 +104,7 @@ const Team = () => {
             </Card>
             <Card className="bg-card border border-border p-4">
               <p className="text-foreground/90">
-                <span className="font-bold text-secondary">Pixel Art:</span>{" "}
+                <span className="font-bold text-secondary">{t('team.pixelArtTool')}:</span>{" "}
                 <a href="https://www.piskelapp.com/" target="_blank" rel="noopener noreferrer" className="text-secondary hover:underline">
                   Piskel
                 </a>
@@ -110,7 +112,7 @@ const Team = () => {
             </Card>
             <Card className="bg-card border border-border p-4">
               <p className="text-foreground/90">
-                <span className="font-bold text-accent">Musique - Bosca Ceoil: The Blue Album:</span>{" "}
+                <span className="font-bold text-accent">{t('team.music')} - Bosca Ceoil: The Blue Album:</span>{" "}
                 <a href="https://yurisizov.itch.io/boscaceoil-blue" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
                   https://yurisizov.itch.io/boscaceoil-blue
                 </a>

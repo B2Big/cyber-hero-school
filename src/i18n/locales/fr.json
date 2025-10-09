@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "title": "PIXEL HERO SCHOOL",
+    "subtitle": "Forme la prochaine génération de héros",
+    "description": "Un jeu de plateforme pixel-art où tu combats le harcèlement scolaire en explorant le cerveau de l'école",
+    "playNow": "Jouer Maintenant",
+    "watchTrailer": "Voir la Bande-Annonce"
+  },
+  "trailer": {
+    "title": "Bande-annonce",
+    "subtitle": "Découvre l'univers de Pixel Hero School",
+    "insiderTitle": "Deviens un·e Pixel Insider !",
+    "insiderDescription": "Reçois nos mises à jour, nouvelles zones jouables et OST exclusives",
+    "newsletterButton": "Inscris-toi à la newsletter",
+    "themeTitle": "Thème officiel (1h loop animée)",
+    "watchTheme": "Écouter le thème"
+  },
+  "vision": {
+    "title": "Notre vision",
+    "subtitle": "Un jeu-manifeste pour combattre le harcèlement",
+    "point1Title": "Incarner",
+    "point1Desc": "Pixel-Chef, un héros qui entre « dans le cerveau » de l'école pour réparer les pixels sombres représentant les élèves tristes.",
+    "point2Title": "Explorer",
+    "point2Desc": "Des niveaux abstraits et dynamiques où les glitchs (monstres issus du harcèlement) envahissent les couloirs.",
+    "point3Title": "Rétablir",
+    "point3Desc": "La lumière, la couleur et la joie en « réveillant » les élèves délivrés.",
+    "point4Title": "Inspirer",
+    "point4Desc": "Les joueurs à reconnaître et combattre le harcèlement IRL.",
+    "objective": "Objectif : faire de Pixel Hero School un jeu-manifeste accessible (E10+) qui mêle fun, réflexion et impact social.",
+    "pedagogyTitle": "Objectifs Pédagogiques du Projet",
+    "pedagogyDescription": "Le but du projet avait pour objectif de faire découvrir aux élèves et aux enseignants de nouvelles méthodes de travail, centrées sur la méthodologie agile, la gestion de projet tech et l'adoption de pédagogies actives. À travers la création d'un projet collectif autour de la thématique du harcèlement scolaire, les participants ont exploré les métiers de l'audiovisuel et du numérique, tout en développant des compétences collaboratives et créatives inspirées du monde professionnel."
+  },
+  "playNow": {
+    "title": "Jouer dès maintenant",
+    "subtitle": "Disponible sur navigateur web",
+    "platform": "Plate-forme",
+    "link": "Lien",
+    "webVersion": "Version web (HTML5)",
+    "testGame": "Testez le jeu ici !",
+    "shareLink": "Lien de Partage du jeu",
+    "qrCode": "QR Code du jeu",
+    "scanToPlay": "Scannez pour jouer !",
+    "gameplayTitle": "Gameplay en un clin d'œil",
+    "mainLoop": "Boucle principale",
+    "description": "Description",
+    "exploration": "Exploration",
+    "explorationDesc": "Plateformes et collectibles au sein du cerveau-école.",
+    "combat": "Combat",
+    "combatDesc": "Beat-them-all léger + pouvoirs pixel-magiques pour purifier les glitchs.",
+    "objectives": "Objectifs",
+    "objectivesDesc": "Délivrer chaque élève prisonnier, voyager à travers un monde magique",
+    "ageRestriction": "Restriction d'âge : E10+ (contenu modéré, thématique du harcèlement)."
+  },
+  "features": {
+    "title": "Caractéristiques clés",
+    "subtitle": "Ce qui rend Pixel Hero School unique",
+    "pixelArt": "Pixel-art 2D haute résolution (16/32-bit modernisé)",
+    "abstractLevels": "Niveaux abstraits illustrant l'état émotionnel de l'école",
+    "glitchEnemies": "Ennemis-glitchs incarnant les ragots, insultes & peurs",
+    "soundtrack": "Bande-son chiptune-orchestrale",
+    "narrative": "Narration à embranchements selon vos choix de soutien aux élèves",
+    "universeTitle": "Univers & message",
+    "universeDescription": "Pixel Hero School se déroule dans l'infrastructure numérique d'une école française fictive. Chaque zone — « Couloirs de la Rumeur », « Bibliothèque Oubliée », « Gymnase de la Pression » — personnifie une facette du vécu scolaire. Votre mission : purifier ces zones et rappeler à chaque élève qu'il/elle n'est pas seul·e."
+  },
+  "team": {
+    "title": "Équipe",
+    "subtitle": "Les créateurs de Pixel Hero School",
+    "studio": "Studio",
+    "school": "École",
+    "studioGosty": "Studio GOSTY",
+    "studioEpicLand": "Studio EPIC-LAND",
+    "studioNewGame": "Studio NEW GAME INFINIT",
+    "studioPastek": "Studio PASTEK RIDE",
+    "supervision": "Supervision",
+    "director": "Directeur du projet",
+    "location": "Studio & localisation",
+    "locationDesc": "France – Nice / Cannes – Studios : Gosty • Epic‑Land • New Game Infinit • Pastek Ride",
+    "externalCreditsTitle": "Crédits externes",
+    "engine": "Moteur",
+    "pixelArtTool": "Pixel Art",
+    "music": "Musique"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Questions fréquentes",
+    "q1": "Le jeu est-il gratuit ?",
+    "a1": "Oui, la version Web est accessible sans frais.",
+    "q2": "Puis-je streamer la démo ?",
+    "a2": "Absolument. Utilisez le hashtag #PixelHeroSchool.",
+    "q3": "Quel âge pour y jouer ?",
+    "a3": "Classé E10+ : adapté aux 10 ans et +.",
+    "releaseNotes": "Notes de version",
+    "version": "(12 juin 2025) : V 1.0"
+  },
+  "footer": {
+    "youtube": "YouTube",
+    "website": "Site Web",
+    "contact": "Contact mail",
+    "quote": "« Une expérience ludique qui aborde intelligemment le harcèlement scolaire. »",
+    "hashtag": "#PixelHeroSchool",
+    "copyright": "© 2025 Pixel Hero School. Tous droits réservés."
+  }
+}

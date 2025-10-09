@@ -4,20 +4,22 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { useTranslation } from "react-i18next";
 
 const FAQ = () => {
+  const { t } = useTranslation();
   const faqs = [
     {
-      question: "Le jeu est-il gratuit ?",
-      answer: "Oui, la version Web est accessible sans frais."
+      question: t('faq.q1'),
+      answer: t('faq.a1')
     },
     {
-      question: "Puis-je streamer la démo ?",
-      answer: "Absolument. Utilisez le hashtag #PixelHeroSchool."
+      question: t('faq.q2'),
+      answer: t('faq.a2')
     },
     {
-      question: "Quel âge pour y jouer ?",
-      answer: "Classé E10+ : adapté aux 10 ans et +."
+      question: t('faq.q3'),
+      answer: t('faq.a3')
     }
   ];
 
@@ -29,10 +31,10 @@ const FAQ = () => {
 
       <div className="container relative z-10 mx-auto px-4">
         <h2 className="text-5xl md:text-6xl font-black text-center mb-4 hero-gradient">
-          FAQ
+          {t('faq.title')}
         </h2>
         <p className="text-center text-xl text-muted-foreground mb-12">
-          Questions fréquentes
+          {t('faq.subtitle')}
         </p>
 
         <div className="max-w-3xl mx-auto">
@@ -54,8 +56,8 @@ const FAQ = () => {
           </Accordion>
 
           <div className="mt-12 text-center p-8 bg-card border-2 border-accent rounded-xl">
-            <p className="text-2xl font-bold text-accent mb-2">Notes de version</p>
-            <p className="text-lg text-foreground/80">(12 juin 2025) : V 1.0</p>
+            <p className="text-2xl font-bold text-accent mb-2">{t('faq.releaseNotes')}</p>
+            <p className="text-lg text-foreground/80">{t('faq.version')}</p>
           </div>
         </div>
       </div>

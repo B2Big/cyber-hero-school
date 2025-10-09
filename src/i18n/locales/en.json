@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "title": "PIXEL HERO SCHOOL",
+    "subtitle": "Train the next generation of heroes",
+    "description": "A pixel-art platformer game where you fight school bullying by exploring the school's brain",
+    "playNow": "Play Now",
+    "watchTrailer": "Watch Trailer"
+  },
+  "trailer": {
+    "title": "Trailer",
+    "subtitle": "Discover the Pixel Hero School universe",
+    "insiderTitle": "Become a Pixel Insider!",
+    "insiderDescription": "Receive our updates, new playable zones and exclusive OST",
+    "newsletterButton": "Sign up for the newsletter",
+    "themeTitle": "Official theme (1h animated loop)",
+    "watchTheme": "Listen to the theme"
+  },
+  "vision": {
+    "title": "Our vision",
+    "subtitle": "A manifesto game to fight bullying",
+    "point1Title": "Embody",
+    "point1Desc": "Pixel-Chef, a hero who enters \"into the brain\" of the school to repair the dark pixels representing sad students.",
+    "point2Title": "Explore",
+    "point2Desc": "Abstract and dynamic levels where glitches (monsters from bullying) invade the hallways.",
+    "point3Title": "Restore",
+    "point3Desc": "Light, color and joy by \"awakening\" the freed students.",
+    "point4Title": "Inspire",
+    "point4Desc": "Players to recognize and fight bullying IRL.",
+    "objective": "Goal: make Pixel Hero School an accessible manifesto game (E10+) that combines fun, reflection and social impact.",
+    "pedagogyTitle": "Educational Objectives of the Project",
+    "pedagogyDescription": "The project's goal was to introduce students and teachers to new working methods, focused on agile methodology, tech project management and the adoption of active pedagogies. Through the creation of a collective project around the theme of school bullying, participants explored audiovisual and digital professions, while developing collaborative and creative skills inspired by the professional world."
+  },
+  "playNow": {
+    "title": "Play now",
+    "subtitle": "Available on web browser",
+    "platform": "Platform",
+    "link": "Link",
+    "webVersion": "Web version (HTML5)",
+    "testGame": "Test the game here!",
+    "shareLink": "Game share link",
+    "qrCode": "Game QR Code",
+    "scanToPlay": "Scan to play!",
+    "gameplayTitle": "Gameplay at a glance",
+    "mainLoop": "Main loop",
+    "description": "Description",
+    "exploration": "Exploration",
+    "explorationDesc": "Platforms and collectibles within the school-brain.",
+    "combat": "Combat",
+    "combatDesc": "Light beat-them-all + pixel-magic powers to purify glitches.",
+    "objectives": "Objectives",
+    "objectivesDesc": "Free each imprisoned student, travel through a magical world",
+    "ageRestriction": "Age restriction: E10+ (moderate content, bullying theme)."
+  },
+  "features": {
+    "title": "Key features",
+    "subtitle": "What makes Pixel Hero School unique",
+    "pixelArt": "High-resolution 2D pixel-art (modernized 16/32-bit)",
+    "abstractLevels": "Abstract levels illustrating the school's emotional state",
+    "glitchEnemies": "Glitch enemies embodying gossip, insults & fears",
+    "soundtrack": "Chiptune-orchestral soundtrack",
+    "narrative": "Branching narrative based on your student support choices",
+    "universeTitle": "Universe & message",
+    "universeDescription": "Pixel Hero School takes place within the digital infrastructure of a fictional French school. Each zone — \"Rumor Corridors\", \"Forgotten Library\", \"Pressure Gym\" — personifies a facet of school life. Your mission: purify these zones and remind each student that they are not alone."
+  },
+  "team": {
+    "title": "Team",
+    "subtitle": "The creators of Pixel Hero School",
+    "studio": "Studio",
+    "school": "School",
+    "studioGosty": "Studio GOSTY",
+    "studioEpicLand": "Studio EPIC-LAND",
+    "studioNewGame": "Studio NEW GAME INFINIT",
+    "studioPastek": "Studio PASTEK RIDE",
+    "supervision": "Supervision",
+    "director": "Project Director",
+    "location": "Studio & location",
+    "locationDesc": "France – Nice / Cannes – Studios: Gosty • Epic‑Land • New Game Infinit • Pastek Ride",
+    "externalCreditsTitle": "External credits",
+    "engine": "Engine",
+    "pixelArtTool": "Pixel Art",
+    "music": "Music"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Frequently asked questions",
+    "q1": "Is the game free?",
+    "a1": "Yes, the Web version is accessible free of charge.",
+    "q2": "Can I stream the demo?",
+    "a2": "Absolutely. Use the hashtag #PixelHeroSchool.",
+    "q3": "What age to play?",
+    "a3": "Rated E10+: suitable for ages 10 and up.",
+    "releaseNotes": "Release notes",
+    "version": "(June 12, 2025): V 1.0"
+  },
+  "footer": {
+    "youtube": "YouTube",
+    "website": "Website",
+    "contact": "Contact email",
+    "quote": "\"A playful experience that intelligently addresses school bullying.\"",
+    "hashtag": "#PixelHeroSchool",
+    "copyright": "© 2025 Pixel Hero School. All rights reserved."
+  }
+}
