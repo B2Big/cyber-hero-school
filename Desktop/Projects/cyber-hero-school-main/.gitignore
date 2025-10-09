@@ -1,0 +1,22 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+*.lnk
+*.url
+*.avif
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+# Windows user folders
+AppData/
+Documents/
+Downloads/
+Music/
+Pictures/
+Videos/
+Saved Games/
+OneDrive/
